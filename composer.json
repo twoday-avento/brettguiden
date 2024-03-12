@@ -1,0 +1,26 @@
+{
+    "name": "twoday/brettguiden",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress-core-installer": "^2.0",
+        "johnpbloch/wordpress-core": "^6.4"
+    },
+    "extra": {
+        "wordpress-install-dir": "wordpress"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "rm -rf wordpress/wp-content"
+        ]
+    }
+  }
