@@ -1,0 +1,94 @@
+.contributor-row {
+  margin-bottom: 15px;
+
+  .col-photo {
+    width: 15%;
+    float: left;
+    .contributor-photo {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .col-info {
+    width: 85%;
+    float: left;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .reviewers-name {
+    a {
+      color: #000;
+    }
+  }
+
+  .reviewers-description {
+    margin-bottom: 5px;
+  }
+
+  .reviewers-link {
+    margin-top: 10px;
+  }
+}
+
+
+.reviewd-game-row {
+  margin-bottom: 20px;
+
+  .col-reviewd-game {
+    width: 100%;
+    float: left;
+    padding-right: 20px;
+    .reviewd-game-title {
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+    .reviewed-game-comment {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 600px){
+    .col-reviewd-game {
+      width: 85%;
+      float: left;
+      padding-right: 20px;
+      border-right: 1px solid #777;
+      .reviewd-game-title {
+        line-height: 1.5;
+        margin-bottom: 5px;
+      }
+      .reviewed-game-comment {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .col-reviewd-game-score {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 15px 0;
+    border-bottom: 1px solid #777;
+    color: #ccc;
+    span {
+      display: inline-block;
+      font-size: 32px;
+      color: #176DB8;
+    }
+
+    @media(min-width: 600px){
+      width: 15%;
+      float: left;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+      padding: 0;
+      border-bottom: 0;
+      margin-top: 4%;
+    }
+  }
+}

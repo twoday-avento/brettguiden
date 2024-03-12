@@ -1,0 +1,25 @@
+/*
+Theme Name: Interactive by MyThemeShop Child
+Theme URI: http://mythemeshop.com/themes/interactive
+Author: MyThemeShop
+Author URI: http://mythemeshop.com/
+Description: Interactive is the theme that lets you truly engage with your audience. A beautiful layout will greet your visitors while the extensive interactive features, such as in-built rating systems, will keep them coming back time and again.
+Template: mts_interactive
+Version: 1.0.6
+*/
+
+@import url("../mts_interactive/style.css");
+
+.big-posts .front-view-content {
+	color: #fff;
+
+}
+
+.big-posts .big-3 header, .big-posts .big-4 header {
+	left: 0;
+	right: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 100%;
+	width: 100%;
+}

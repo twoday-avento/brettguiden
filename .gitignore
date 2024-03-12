@@ -20,3 +20,9 @@ node_modules
 # OSX Desktop Services Store files.
 .DS_Store
 .idea
+
+
+# wp-content folder
+/wp-content/uploads
+/wp-content/plugins
+/wp-content/plugins
