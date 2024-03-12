@@ -1,0 +1,22 @@
+
+
+# Wordpress
+/Wordpress
+
+# Libraries installed by Composer
+/vendor
+
+#Enviorments variables
+.env
+.env.*
+!.env.example
+
+# Node Package Manager
+node_modules
+
+# Don't store any logs in version control
+*.log
+
+# OSX Desktop Services Store files.
+.DS_Store
+.idea
